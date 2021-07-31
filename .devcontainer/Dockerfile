@@ -9,4 +9,4 @@ FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:${VARIANT}
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends nodejs
+    && apt-get -y install --no-install-recommends nodejs npm
