@@ -8,5 +8,5 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
-RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends nodejs
+RUN sudo apt-get update && sudo export DEBIAN_FRONTEND=noninteractive \
+    && sudo apt-get -y install --no-install-recommends nodejs
