@@ -1,11 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.183.0/containers/ubuntu
 {
-	"name": "Ubuntu",
+	"name": "NodeTypescript",
 	"build": {
 		"dockerfile": "Dockerfile",
 		// Update 'VARIANT' to pick an Ubuntu version: focal, bionic
-		"args": { "VARIANT": "focal" }
+		"args": { "VARIANT": "16" }
 	},
 
 	// Set *default* container specific settings.json values on container create.
